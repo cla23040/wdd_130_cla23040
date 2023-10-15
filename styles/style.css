@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&family=Roboto+Condensed&display=swap');
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
 nav a {
+  padding: 35px;
   text-align: center;
 }
 #hero-msg h1, #hero-msg h4 {
@@ -19,14 +22,16 @@ main section {
 }
 body {
   background-color: #5B5729;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #5B5729;
+  font-family: 'Skranji', Helvetica, sans-serif;
 }
 nav a:hover {
-  background-color: #5B5729;
-}
-.book, .join {
   background-color: #5B5729;
 }
 .book:hover, .join:hover {
@@ -36,9 +41,11 @@ nav a:hover {
   background-color: #5B5729;
 }
 .msg {
+  padding: 35px;
   background-color: #5B5729;
 }
 footer {
+  margin-top: 200px;
   background-color: #5B5729;
 }
 nav a {
@@ -48,15 +55,23 @@ nav a {
 }
 nav a:hover {
   color: gray;
+  font-family: 'Skranji', Helvetica, sans-serif;
 }
 .home-title {
+  margin-top: 10px;
+  font-size: 2em;
   color: white;
 }
 h4 {
   color: white;
 }
 .book, .join {
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 15px 30px;
   color: white;
+  font-size: 18px;
+  background-color: #9e9747;
   text-align: center;
   text-decoration: none;
 }
@@ -65,11 +80,15 @@ h4 {
 }
 .msg h2 {
   color: white;
+  font-family: 'Skranji', Helvetica, sans-serif;
 }
 .msg p {
+  padding-bottom: 15px;
   color: white;
+  font-size: .8em;
 }
 footer {
+  padding: 25px 50px;
   color: white;
 }
 footer a {
@@ -88,4 +107,25 @@ footer p {
 }
 footer p a:hover {
   text-decoration: underline;
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.icon {
+  padding-top: 10px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
+}
+main section img {
+  box-sizing: border-box;
 }
